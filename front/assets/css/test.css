@@ -1,0 +1,6 @@
+/* カスタムCSSで × ボタンを強制的に表示 */
+.vue-toast-notification__close-button {
+    display: block !important; /* 強制的に表示 */
+    cursor: pointer;
+    padding-left: 10px;
+  }
